@@ -1,0 +1,45 @@
+body{
+  background-color:#D8E3E7;
+  position:relative;
+  padding-top:150px;
+}
+hr{
+  background-color:#D8E3E7;
+  border-style:dotted none none;
+  border-color:#126E82;
+  border-width:5px;
+  height:2px;
+  width:6%;
+}
+h1{
+  color:#126E82;
+  font-family:cursive;
+}
+h3{
+  color:#126E82;
+  font-family:cursive;
+}
+p{
+  color:#132C33;
+  font-family:inherit;
+}
+a{
+  color:#132C33;
+  font-family:inherit;
+}
+.firstblock{
+  position:absolute;
+  left:5px;
+  top:5px;
+}
+.secondblock{
+  position:absolute;
+  top:5px;
+  left:45%;
+
+}
+.thirdblock{
+  position:absolute;
+  right:5px;
+  top:5px;
+}

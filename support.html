@@ -1,25 +1,41 @@
-<h2>Customer Support</h2>
-<form class="" action="index.html" method="post">
-  <table cellspacing="20">
-    <tr>
-      <td><label for="">Name</label></td>
-      <td><input type="text" name="" value=""></td>
-    </tr>
-    <tr>
-      <td><label for="">Number</label></td>
-      <td><input type="number" name="" value=""></td>
-    </tr>
-    <tr>
-      <td><label for="">email</label></td>
-      <td><input type="email" name="" value=""></td>
-    </tr>
-    <tr>
-      <td><label for="">Reason</label></td>
-      <td><input type="text" name="" value=""></td>
-    </tr>
-    <tr>
-      <td><input type="submit" name="" value="Submit"></td>
-    </tr>
-  </table>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Customer support</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Customer Support</h2>
+    <form action="mailto:niteeshkumar368@gmail.com?subject=feedback" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="">Name:</label></td>
+          <td><input type="text" name="name" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="">Email:</label></td>
+          <td><input type="email" name="email" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="">Number:</label></td>
+          <td><input type="number" name="number" value=""></td>
+        </tr>
 
-</form>
+
+      </table>
+      <label for="">Reason:</label><br>
+      <textarea name="reason" rows="8" cols="80"></textarea><br>
+
+      <input type="submit" name="Submit" value="SUBMIT">
+
+
+
+
+
+
+
+    </form>
+
+  </body>
+</html>
