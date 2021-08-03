@@ -1,66 +1,47 @@
 body{
-  margin:0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-.top-container {
-  background-color: #E4F9F5;
+  background-color:#D8E3E7;
   position:relative;
-  padding-top:100px;
+  padding-top:150px;
 }
-
+hr{
+  background-color:#D8E3E7;
+  border-style:dotted none none;
+  border-color:#126E82;
+  border-width:5px;
+  height:2px;
+  width:6%;
+}
 h1{
-  margin:50px auto 0 auto;
-  font-family: 'El Messiri', sans-serif;
-  font-size: 5.625rem;
-  color:#66BFBF;
-  line-height: 2;
-}
-
-p{
-  font-family: 'Roboto', sans-serif;
-}
-h2{
-  font-family: 'Merriweather', serif;
-  font-size:2.5rem;
-  color:#66BFBF;
+  color:#126E82;
+  font-family:cursive;
 }
 h3{
-  font-family: 'Merriweather', serif;
-  color:#11999E;
+  color:#126E82;
+  font-family:cursive;
+}
+p{
+  color:#132C33;
+  font-family:inherit;
 }
 a{
-  color:#11999E;
+  color:#132C33;
+  font-family:inherit;
 }
-.bottomcloud{
+.firstblock{
   position:absolute;
-  left:20%;
-  bottom:40%;
+  left:180px;
+  top:5px;
+  font-size: 12px
+
 }
-.topcloud{
+.secondblock{
   position:absolute;
-  right:20%;
-  top:10%;
+  top:5px;
+  left:45%;
+
 }
-.work{
-  font-weight: normal;
-}
-.skill-row{
-  width:50%;
-  margin:50px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-.coding-img{
-  width: 25%;
-  float: left;
-  margin-right: 50px;
-}
-.cricket-img{
-  width:25%;
-  float: right;
-  margin-left: 50px;
-}
-.middle-container{
-  margin-top: 50px;
+.thirdblock{
+  position:absolute;
+  right:250px;
+  top:5px;
 }
